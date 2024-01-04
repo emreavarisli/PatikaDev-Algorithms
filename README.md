@@ -44,3 +44,19 @@ Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 
 Soru: Big-O gösterimini yazınız.
 Merge Sort'un zaman karmaşıklığı O(n log n)'dir.
+
+Ödev 3:
+
+Soru: [16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+[16, 21, 11] | [8, 12, 22]
+[16] | [21, 11] || [8] | [12, 22]
+[16] | [21] | [11] || [8] | [12] | [22]
+[16, 21] | [11] || [8, 12] | [22]
+[11, 16, 21] || [8, 12, 22]
+[8, 11, 12, 16, 21, 22]
+
+Soru: Big-O gösterimini yazınız.
+Merge Sort'un zaman karmaşıklığı O(n log n)'dir.
