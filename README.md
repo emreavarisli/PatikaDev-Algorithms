@@ -47,16 +47,8 @@ Merge Sort'un zaman karmaşıklığı O(n log n)'dir.
 
 Ödev 3:
 
-Soru: [16,21,11,8,12,22] -> Merge Sort
+Soru: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
 
-Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
 
-[16, 21, 11] | [8, 12, 22]
-[16] | [21, 11] || [8] | [12, 22]
-[16] | [21] | [11] || [8] | [12] | [22]
-[16, 21] | [11] || [8, 12] | [22]
-[11, 16, 21] || [8, 12, 22]
-[8, 11, 12, 16, 21, 22]
-
-Soru: Big-O gösterimini yazınız.
-Merge Sort'un zaman karmaşıklığı O(n log n)'dir.
+![1](https://github.com/emreavarisli/PatikaDev-Algorithms/assets/81103889/d97701db-b092-4d03-b4a1-cb010252a613)
